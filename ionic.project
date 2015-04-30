@@ -1,4 +1,11 @@
 {
   "name": "TimeFli",
-  "app_id": ""
+  "app_id": "",
+  "documentRoot": "build",
+  "watchPatterns": [
+      "build/app/**.js"
+  ],
+  "gulpStartupTasks": [
+      "watch"
+  ]
 }

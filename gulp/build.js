@@ -5,10 +5,9 @@ gulp.task('_build', function (callback) {
     runSequence(
         'clean:build',
         'lint',
-        ['sass', 'tplCache', 'copy'],
+        ['sass', 'tplCache', 'copy:libs', 'copy:fonts', 'copy:source'],
         'htmlInject',
         'size:build',
-        ['watch:sass','watch:js'],
         callback
     );
 });

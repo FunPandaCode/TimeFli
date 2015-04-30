@@ -5,9 +5,14 @@ module.exports = {
     },
 
     paths: {
-        libs: [
-            'libs/ionic/js/ionic.bundle.min.js'
-        ],
+        libs: {
+            js: [
+                'libs/ionic/js/ionic.bundle.js'
+            ],
+            fonts: [
+                'libs/ionic/fonts/*.*'
+            ]
+        },
         sass: 'src/scss/ionic.app.scss',
         js: 'src/**/*.js',
         views: 'src/**/*.html',
