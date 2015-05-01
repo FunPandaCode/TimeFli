@@ -27,5 +27,9 @@
     "gulp-debug": "^2.0.1",
     "gulp-util": "^3.0.4",
     "shelljs": "^0.4.0"
-  }
+  },
+  "cordovaPlugins": [],
+  "cordovaPlatforms": [
+    "ios"
+  ]
 }
