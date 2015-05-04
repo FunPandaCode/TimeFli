@@ -33,7 +33,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
             .state('tab', {
                 url: "/tab",
                 abstract: true,
-                templateUrl: "app/templates/tabs.html"
+                templateUrl: "app/components/navigations/tabNavigation.html"
             })
 
             // Each tab has its own nav history stack:
@@ -43,7 +43,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
                 url: '/dash',
                 views: {
                     'tab-dash': {
-                        templateUrl: 'app/templates/tab-dash.html',
+                        templateUrl: 'app/components/navigations/tab-dash.html',
                         controller: 'DashCtrl'
                     }
                 }
@@ -53,7 +53,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
                 url: '/chats',
                 views: {
                     'tab-chats': {
-                        templateUrl: 'app/templates/tab-chats.html',
+                        templateUrl: 'app/components/navigations/tab-chats.html',
                         controller: 'ChatsCtrl'
                     }
                 }
@@ -62,7 +62,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
                 url: '/chats/:chatId',
                 views: {
                     'tab-chats': {
-                        templateUrl: 'app/templates/chat-detail.html',
+                        templateUrl: 'app/components/navigations/chat-detail.html',
                         controller: 'ChatDetailCtrl'
                     }
                 }
@@ -72,7 +72,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
                 url: '/account',
                 views: {
                     'tab-account': {
-                        templateUrl: 'app/templates/tab-account.html',
+                        templateUrl: 'app/components/navigations/tab-account.html',
                         controller: 'AccountCtrl'
                     }
                 }

@@ -6,6 +6,6 @@
       "build/app/**.js"
   ],
   "gulpStartupTasks": [
-      "watch"
+
   ]
 }
